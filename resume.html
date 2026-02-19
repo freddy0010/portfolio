@@ -1,0 +1,395 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Resume — Jens Mathew</title>
+  <meta name="description" content="Resume and professional experience." />
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <nav>
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about">About</a>
+        <a href="resume.html">Resume</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+    <main>
+      <section class="resume-section">
+        <div style="text-align:center;margin-bottom:15px">
+          <div class="avatar resume-avatar" style="margin:0 auto 15px;width:120px;height:120px;"><img src="WhatsApp Image 2026-02-09 at 11.16.18 PM.jpeg" alt="Profile"></div>
+          <h1 style="margin:0;font-size:24px">Jens Mathew</h1>
+          <p class="muted" style="font-size:14px;margin-top:4px">Data Science & Cybersecurity Enthusiast</p>
+          
+          <div class="contact-info" style="gap:16px;margin-top:10px">
+            <a href="mailto:jensmathew09@gmail.com" class="contact-item">
+              <span class="contact-icon">📧</span>
+              <span>jensmathew09@gmail.com</span>
+            </a>
+            <a href="tel:+916239137817" class="contact-item">
+              <span class="contact-icon">📱</span>
+              <span>+91-6239137817</span>
+            </a>
+            <a href="https://github.com/freddy0010" target="_blank" class="contact-item">
+              <span class="contact-icon">💻</span>
+              <span>github.com/freddy0010</span>
+            </a>
+            <a href="https://www.linkedin.com/in/jens-thomas-18a24a297/" target="_blank" class="contact-item">
+              <span class="contact-icon">🔗</span>
+              <span>LinkedIn</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Section Navigation Bar -->
+        <nav class="section-nav">
+          <ul class="nav justify-content-center">
+            <li class="nav-item">
+              <a class="nav-link" href="#education"><i class="fas fa-graduation-cap me-1"></i>Education</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#skills"><i class="fas fa-code me-1"></i>Skills</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#projects"><i class="fas fa-project-diagram me-1"></i>Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#training"><i class="fas fa-training me-1"></i>Training</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#certifications"><i class="fas fa-certificate me-1"></i>Certifications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#achievements"><i class="fas fa-trophy me-1"></i>Achievements</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="resume-grid">
+          <div class="resume-card" id="education">
+            <h3><i class="fas fa-graduation-cap me-2"></i>Education</h3>
+            <div class="sub-boxes">
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>Lovely Professional University</h4>
+                    <p class="muted">Punjab, India</p>
+                    <p class="muted">Bachelor of Technology - Computer Science and Engineering</p>
+                  </div>
+                  <span class="date-badge">Aug' 23 - Present</span>
+                </div>
+                <p class="muted mt-2">CGPA: 6.43</p>
+              </div>
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>Al Ain Juniors School</h4>
+                    <p class="muted">Abu Dhabi, UAE</p>
+                    <p class="muted">Intermediate (Physics, Chemistry, Maths)</p>
+                  </div>
+                  <span class="date-badge">Apr' 21 - Mar' 23</span>
+                </div>
+                <p class="muted mt-2">Percentage: 72%</p>
+              </div>
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>Al Ain Juniors School</h4>
+                    <p class="muted">Abu Dhabi, UAE</p>
+                    <p class="muted">Matriculation</p>
+                  </div>
+                  <span class="date-badge">Feb' 20 - Mar' 21</span>
+                </div>
+                <p class="muted mt-2">Percentage: 75%</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-card" id="skills">
+            <h3><i class="fas fa-code me-2"></i>Skills</h3>
+            
+            <!-- Tabs for Skills -->
+            <ul class="nav nav-tabs mb-3" id="skillsTab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="coding-tab" data-bs-toggle="tab" data-bs-target="#coding" type="button" role="tab">
+                  <i class="fas fa-code me-2"></i>Coding
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="tools-tab" data-bs-toggle="tab" data-bs-target="#tools" type="button" role="tab">
+                  <i class="fas fa-tools me-2"></i>Tools
+                </button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="soft-tab" data-bs-toggle="tab" data-bs-target="#soft" type="button" role="tab">
+                  <i class="fas fa-users me-2"></i>Soft Skills
+                </button>
+              </li>
+            </ul>
+            
+            <div class="tab-content" id="skillsTabContent">
+              <!-- Coding Languages Tab -->
+              <div class="tab-pane fade show active" id="coding" role="tabpanel">
+                <div class="skills-sub-boxes">
+                  <div class="skills-sub-box">
+                    <i class="fab fa-python me-2" style="color:#3776ab"></i>
+                    <span class="skill-tag">Python</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fab fa-cplusplus me-2" style="color:#00599c"></i>
+                    <span class="skill-tag">C++</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fab fa-java me-2" style="color:#007396"></i>
+                    <span class="skill-tag">Java</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-code me-2" style="color:#A8B9CC"></i>
+                    <span class="skill-tag">C</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fab fa-html5 me-2" style="color:#E34F26"></i>
+                    <span class="skill-tag">HTML</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fab fa-css3-alt me-2" style="color:#1572B6"></i>
+                    <span class="skill-tag">CSS</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-brain me-2" style="color:#FF6F61"></i>
+                    <span class="skill-tag">ML Model</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Tools Tab -->
+              <div class="tab-pane fade" id="tools" role="tabpanel">
+                <div class="skills-sub-boxes">
+                  <div class="skills-sub-box">
+                    <i class="fab fa-jupyter me-2" style="color:#F37626"></i>
+                    <span class="skill-tag">Jupyter</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-chart-bar me-2" style="color:#F2C811"></i>
+                    <span class="skill-tag">Power BI</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-file-excel me-2" style="color:#217346"></i>
+                    <span class="skill-tag">Excel</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-code me-2" style="color:#5C2D91"></i>
+                    <span class="skill-tag">VS Studio</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fab fa-bootstrap me-2" style="color:#7952B3"></i>
+                    <span class="skill-tag">Bootstrap</span>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- Soft Skills Tab -->
+              <div class="tab-pane fade" id="soft" role="tabpanel">
+                <div class="skills-sub-boxes">
+                  <div class="skills-sub-box">
+                    <i class="fas fa-lightbulb me-2" style="color:#FFD700"></i>
+                    <span class="skill-tag">Problem-Solving</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-users me-2" style="color:#4CAF50"></i>
+                    <span class="skill-tag">Team Player</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-tasks me-2" style="color:#2196F3"></i>
+                    <span class="skill-tag">Project Management</span>
+                  </div>
+                  <div class="skills-sub-box">
+                    <i class="fas fa-sync-alt me-2" style="color:#9C27B0"></i>
+                    <span class="skill-tag">Adaptability</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-card" id="projects">
+            <h3><i class="fas fa-project-diagram me-2"></i>Projects</h3>
+            <div class="sub-boxes project-row">
+              <div class="sub-box project-sub-box" style="cursor:pointer" onclick="window.open('https://github.com/freddy0010/phishing-website-', '_blank')">
+                <div>
+                  <h4>Phishing Detection</h4>
+                  <p class="muted"><i class="fab fa-python me-1"></i> Python, HTML, CSS, Machine Learning</p>
+                </div>
+                <span class="date-badge">Mar' 2025</span>
+                <div style="grid-column:1/-1">
+                  <p>Developed a web-based phishing website detection system to automatically identify and classify websites as legitimate or phishing, aiming to enhance cybersecurity awareness and protection.</p>
+                  <p>Built an interactive front-end using HTML and CSS; implemented the backend in Python with a Random Forest model trained on a CSV dataset of legitimate and phishing websites; deployed the model using Joblib.</p>
+                  <p>Successfully classified websites based on key features (e.g., presence of special characters, URL shortening, and URL length), providing a practical tool for detecting phishing attempts in real-world scenarios.</p>
+                </div>
+                <div class="skills-hover">
+                  <img src="m1.png" alt="Phishing Detection" class="project-image" style="width:100%;max-width:150px;height:100px;object-fit:cover;border-radius:8px;" onerror="this.style.display='none'">
+                  <h5>Phishing Detection</h5>
+                  <span class="skill-tag"><i class="fab fa-python me-1"></i> Python</span>
+                  <span class="skill-tag"><i class="fab fa-html5 me-1"></i> HTML</span>
+                  <span class="skill-tag"><i class="fab fa-css3-alt me-1"></i> CSS</span>
+                  <span class="skill-tag"><i class="fas fa-brain me-1"></i> ML</span>
+                </div>
+              </div>
+              <div class="sub-box project-sub-box" style="cursor:pointer" onclick="window.open('https://github.com/freddy0010/dashboard-/blob/main/cancer_dataset%20-%20CopyFi.xlsx', '_blank')">
+                <div>
+                  <h4>Dashboard-Cancer</h4>
+                  <p class="muted"><i class="fab fa-python me-1"></i> Python, Pandas, Excel, Data Visualization</p>
+                </div>
+                <span class="date-badge">Feb' 2025</span>
+                <div style="grid-column:1/-1">
+                  <p>Developed an interactive dashboard to analyze a cancer dataset, enabling users to explore key insights and trends for patient demographics, treatment outcomes, and risk factors.</p>
+                  <p>Built dynamic visualizations including bar charts, pie charts, and line plots, with slicers and filters for interactive exploration; facilitated seamless user-driven data analysis.</p>
+                  <p>Provided clear, actionable insights into cancer-related attributes, supporting data-driven decision-making and enhancing understanding of treatment outcomes and lifestyle impacts.</p>
+                </div>
+                <div class="skills-hover">
+                  <img src="s2.png" alt="Dashboard-Cancer" class="project-image" style="width:100%;max-width:150px;height:100px;object-fit:cover;border-radius:8px;" onerror="this.style.display='none'">
+                  <h5>Dashboard-Cancer</h5>
+                  <span class="skill-tag"><i class="fab fa-python me-1"></i> Python</span>
+                  <span class="skill-tag"><i class="fas fa-table me-1"></i> Pandas</span>
+                  <span class="skill-tag"><i class="fas fa-file-excel me-1"></i> Excel</span>
+                  <span class="skill-tag"><i class="fas fa-chart-bar me-1"></i> Data Viz</span>
+                </div>
+              </div>
+              <div class="sub-box project-sub-box" style="cursor:pointer" onclick="window.open('https://www.linkedin.com/feed/update/urn:li:activity:7407774467973640193/?originTrackingId=t4V%2FsJz4OBoUVzAgsZlCIQ%3D%3D', '_blank')">
+                <div>
+                  <h4>Dashboard-F1</h4>
+                  <p class="muted"><i class="fab fa-python me-1"></i> Python, Pandas, Data Visualization</p>
+                </div>
+                <span class="date-badge">Jan' 2025</span>
+                <div style="grid-column:1/-1">
+                  <p>Developed an interactive F1 racing dashboard to analyze race statistics, driver performances, and team metrics.</p>
+                  <p>Built dynamic visualizations including lap time comparisons, championship standings, and speed analysis charts.</p>
+                  <p>Enabled users to explore historical F1 data and compare performance across different seasons and circuits.</p>
+                </div>
+                <div class="skills-hover">
+                  <img src="s3.png" alt="Dashboard-F1" class="project-image" style="width:100%;max-width:150px;height:100px;object-fit:cover;border-radius:8px;" onerror="this.style.display='none'">
+                  <h5>Dashboard-F1</h5>
+                  <span class="skill-tag"><i class="fab fa-python me-1"></i> Python</span>
+                  <span class="skill-tag"><i class="fas fa-table me-1"></i> Pandas</span>
+                  <span class="skill-tag"><i class="fas fa-chart-bar me-1"></i> Data Viz</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-card" id="training">
+            <h3><i class="fas fa-training me-2"></i>Training</h3>
+            <div class="sub-boxes">
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>Summer Training - Basic Cybersecurity</h4>
+                    <p>Implemented fundamental concepts such as the CIA Triad, various fields of cybersecurity, and common types of cyberattacks along with their corresponding defense mechanisms and solutions.</p>
+                    <p>Trained using platforms like TryHackMe, practicing offensive and defensive techniques on cloud-hosted virtual machines. Built a Phishing Detection project that classifies URLs as phishing or legitimate using feature-based heuristics.</p>
+                    <p>Strengthened essential skills in threat analysis, attack prevention, and secure system design. The experience strengthened my understanding of how machine learning and cybersecurity can be combined to build intelligent security solutions.</p>
+                  </div>
+                  <span class="date-badge">Mar' 25 - Apr' 25</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="resume-card" id="certifications">
+            <h3><i class="fas fa-certificate me-2"></i>Certifications</h3>
+            <div class="sub-boxes">
+              <div class="sub-box" onclick="showCertModal('genai')">
+                <h4>Build Generative AI apps and solutions with no code</h4>
+                <p class="muted"><i class="fas fa-university me-1"></i> Udemy</p>
+                <p class="muted">Aug' 2025</p>
+              </div>
+              <div class="sub-box" onclick="showCertModal('cloud')">
+                <h4>Cloud Computing</h4>
+                <p class="muted"><i class="fas fa-university me-1"></i> NPTEL</p>
+                <p class="muted">Apr' 2025</p>
+              </div>
+              <div class="sub-box" onclick="showCertModal('web')">
+                <h4>Legacy Responsive Web Design</h4>
+                <p class="muted"><i class="fas fa-university me-1"></i> FreeCodeCamp</p>
+                <p class="muted">Nov' 2023</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Certificate Modals -->
+          <div class="cert-modal" id="certModal" onclick="closeCertModal(event)">
+            <div class="cert-modal-content" onclick="event.stopPropagation()">
+              <span class="cert-modal-close" onclick="closeCertModal(event)">&times;</span>
+              <div class="cert-modal-image" id="certImage"><img src="m2.png" alt="Certificate" style="width:100%;height:200px;object-fit:cover;border-radius:8px;"></div>
+              <h3 id="certTitle">Certificate Title</h3>
+              <p class="org" id="certOrg">Organization</p>
+              <p class="date" id="certDate">Date</p>
+            </div>
+          </div>
+
+          <div class="resume-card" id="achievements">
+            <h3><i class="fas fa-trophy me-2"></i>Achievements</h3>
+            <div class="sub-boxes">
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>HackerRank – Python (Gold) Badge</h4>
+                    <p>Achieved Gold rank in Python on HackerRank by completing advanced problem-solving challenges</p>
+                  </div>
+                  <span class="date-badge">Jun' 2025</span>
+                </div>
+              </div>
+              <div class="sub-box">
+                <div class="d-flex justify-content-between align-items-start">
+                  <div>
+                    <h4>Hackathon</h4>
+                    <p>Ranked in the Top 10 out of 50 teams for developing an innovative project on Mental health</p>
+                  </div>
+                  <span class="date-badge">Apr' 2024</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="text-align:center;margin-top:30px">
+          <a class="btn" href="index.html">Back to Home</a>
+        </div>
+      </section>
+    </main>
+
+    <footer>Made with ♥ — Resume of Jens Mathew</footer>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    const certData = {
+      'genai': { title: 'Build Generative AI apps and solutions with no code', org: 'Udemy', date: 'Aug\' 2025', icon: 'fa-robot', image: 'm2.png' },
+      'cloud': { title: 'Cloud Computing', org: 'NPTEL', date: 'Apr\' 2025', icon: 'fa-cloud', image: 'cyber certi.png' },
+      'web': { title: 'Legacy Responsive Web Design', org: 'FreeCodeCamp', date: 'Nov\' 2023', icon: 'fa-code', image: 'html freecode camp.png' }
+    };
+    
+    function showCertModal(certId) {
+      const cert = certData[certId];
+      document.getElementById('certTitle').textContent = cert.title;
+      document.getElementById('certOrg').innerHTML = '<i class="fas fa-university me-1"></i> ' + cert.org;
+      document.getElementById('certDate').textContent = cert.date;
+      if (cert.image) {
+        document.getElementById('certImage').innerHTML = '<img src="' + cert.image + '" alt="Certificate" style="width:100%;height:200px;object-fit:cover;border-radius:8px;">';
+      } else {
+        document.getElementById('certImage').innerHTML = '<i class="fas ' + cert.icon + '" style="color:white"></i>';
+      }
+      document.getElementById('certModal').classList.add('active');
+    }
+    
+    function closeCertModal(event) {
+      if (event) event.stopPropagation();
+      document.getElementById('certModal').classList.remove('active');
+    }
+  </script>
+</body>
+</html>
